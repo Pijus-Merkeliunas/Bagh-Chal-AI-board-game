@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1671544611 source:c:\users\pijus\documents\codeblocks\baghchal\main.cpp
+	<iostream>
+	<stdio.h>
+	<ctype.h>
+	<tchar.h>
+	<windows.h>
+	"BaghChal.h"
+	<windowsx.h>
+	<algorithm>
+	<iterator>
+	<cstring>
+	<sstream>
+	<time.h>
+	<algorithm>
+	<iterator>
+	<objidl.h>
+	<gdiplus.h>
+	<chrono>
+
+1670339094 source:c:\users\pijus\documents\codeblocks\baghchal\baghchal.rc
+	"BaghChal.h"
+
+1670339144 c:\users\pijus\documents\codeblocks\baghchal\baghchal.h
+	<windows.h>
+
+1672409621 source:c:\users\gamer\documents\codeblock\baghchal\baghchal.rc
+	"BaghChal.h"
+
+1672409094 c:\users\gamer\documents\codeblock\baghchal\baghchal.h
+	<windows.h>
+
+1701865636 source:c:\users\gamer\documents\codeblock\baghchal\main.cpp
+	<iomanip>
+	<tchar.h>
+	"BaghChal.h"
+	<windowsx.h>
+	<fstream>
+	<gdiplus.h>
+	<chrono>
+

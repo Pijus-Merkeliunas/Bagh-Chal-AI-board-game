@@ -1,0 +1,34 @@
+#include "BaghChal.h"
+
+IDI_ICON1 ICON "pic/wolf.ico"
+IDI_ICON2 ICON "pic/sheep.ico"
+
+IDR_MYMENU MENU
+{
+    MENUITEM "&Reset", ID_RESTART
+    POPUP "&Opponent"
+        {
+            MENUITEM "New game vs player", PVP
+            MENUITEM "New game vs AI (as sheep)", PVAS
+            MENUITEM "New game vs AI (as wolf)", PVAW
+            MENUITEM "AI vs AI", AVA
+            MENUITEM "Automatic AI vs AI", FAVA
+        }
+    POPUP "&AI LVL"
+        {
+            MENUITEM "1", A1
+            MENUITEM "2", A2
+            MENUITEM "3", A3
+            MENUITEM "4", A4
+            MENUITEM "5", A5
+            MENUITEM "6", A6
+        }
+    POPUP "&Picture sets"
+        {
+            MENUITEM "original", P1
+            MENUITEM "simplistic", P2
+            MENUITEM "AI generated", P3
+        }
+    MENUITEM "E&xit", ID_EXIT
+}
+
